@@ -4,13 +4,6 @@ import random
 import os
 
 
-def clear():
-    if os.name == 'nt':
-        _ = os.system('cls')
-    else:
-        _ = os.system('clear')
-
-
 def profile(profile):
     name = profile["name"]
     description = profile["description"]
